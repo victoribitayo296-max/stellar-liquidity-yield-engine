@@ -121,4 +121,4 @@ Example defaults:
 2. Use retry callbacks to emit metrics or warnings; do not log private signing material.
 3. Keep write retries disabled or tightly controlled for non-idempotent operations.
 4. Add operation-level deadlines so retry delays cannot block a keeper indefinitely.
-5. Escalate after retry exhaustion; the SDK returns the last underlying error rather than converting it into a success result.
+5. Escalate after retry exhaustion; the SDK returns the last underlying error rather than converting it into a success result..
